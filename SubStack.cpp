@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <Windows.h>
 
 #define MAX_SIZE 10
 
@@ -52,5 +53,8 @@ int main() {
             pop();
         }
     }
+
+    system("pause");
+
     return 0;
 }
